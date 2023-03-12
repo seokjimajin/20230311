@@ -1,6 +1,6 @@
 ve son olarak class'lar ile yapilabiliyor:
 
-
+```python
 class Switch(object):
     def __init__(self):
         # Bütün olasilikli veriler burada kaydedilir.
@@ -40,3 +40,4 @@ switch.add_case(3, case_3, False)
 print(switch.case(1))
 print(switch.case(2))
 print(switch.case(3))
+```
