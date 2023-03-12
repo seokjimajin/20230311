@@ -2,7 +2,7 @@
 
 ###### Switch-case Python'da olmayan bir sey. Ama programlamak her zaman yaraticilikla dolu oldugu icin switch-case keywords olmadan da yapilabilmenin (bilinen) 3 yolu var:
 
-: 1) Dictionary ile simüle edilebilir:
+<b> 1) Dictionary ile simüle edilebilir: </b> 
 ```python
 switch_dictionary = {
     0: 'sifir',
@@ -10,11 +10,11 @@ switch_dictionary = {
     2: 'iki',
     3: 'üc'
 }
-zahl = int(input("Lütfen bir sayi girin: "))
+sayi = int(input("Lütfen bir sayi girin: "))
 print(switch_dictionary.get(sayi, 'Verilen sayi 0 ile 3 arasinda olmalidir!'))
 ```
 
-: 2) If-else-elif ile de yapilabilir:
+<b> 2) If-else-elif ile de yapilabilir:</b> 
 
 ```python
 def switch_if(sayi):
@@ -32,7 +32,7 @@ sayi = int(input("Lütfen bir sayi girin: "))
 print(switch_if(sayi))
 ```
 
-: 3) ve son olarak class'lar ile yapilabiliyor:
+<b> 3) ve son olarak class'lar ile yapilabiliyor:</b> 
 
 ```python
 class Switch(object):
