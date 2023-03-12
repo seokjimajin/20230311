@@ -1,4 +1,38 @@
-ve son olarak class'lar ile yapilabiliyor:
+### Switch-case alternatifleri
+
+###### Switch-case Python'da olmayan bir sey. Ama programlamak her zaman yaraticilikla dolu oldugu icin switch-case keywords olmadan da yapilabilmenin (bilinen) 3 yolu var:
+
+: 1) Dictionary ile simüle edilebilir:
+```python
+switch_dictionary = {
+    0: 'sifir',
+    1: 'bir',
+    2: 'iki',
+    3: 'üc'
+}
+zahl = int(input("Lütfen bir sayi girin: "))
+print(switch_dictionary.get(sayi, 'Verilen sayi 0 ile 3 arasinda olmalidir!'))
+```
+
+: 2) If-else-elif ile de yapilabilir:
+
+```python
+def switch_if(sayi):
+    if sayi == 0:
+        return 'Sifir'
+    elif sayi == 1:
+        return 'Bir'
+    elif sayi == 2:
+        return 'Iki'
+    elif sayi == 3:
+        return 'Üc'
+    else:
+        return 'Verilen sayi 0 ile 3 arasinda olmalidir!'
+sayi = int(input("Lütfen bir sayi girin: "))
+print(switch_if(sayi))
+```
+
+: 3) ve son olarak class'lar ile yapilabiliyor:
 
 ```python
 class Switch(object):
