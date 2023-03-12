@@ -1,4 +1,4 @@
-### Switch-case alternatifleri
+## Switch-case alternatifleri
 
 ###### Switch-case Python'da olmayan bir sey. Ama programlamak her zaman yaraticilikla dolu oldugu icin switch-case keywords olmadan da yapilabilmenin (bilinen) 3 yolu var:
 
